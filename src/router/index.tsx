@@ -1,14 +1,16 @@
+import { LedgerPage } from "@/pages/LedgerPage";
+import { StatisticPage } from "@/pages/LedgerPage/statisticPage";
 import { createBrowserRouter } from "react-router";
-import { Board } from "@/pages/broad";
+
 
 const routers = [
     {
         path: "/",
-        element: <div>Home</div>
+        element: <LedgerPage />
     },
     {
-        path: "/board",
-        element: <Board />
+        path: "/statistics",
+        element: <StatisticPage />
     }
 ];
 
