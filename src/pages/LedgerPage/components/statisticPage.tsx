@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router";
-import { loadRecords } from "./storage";
+import { loadRecords } from "../storage";
 import { useMemo, useState } from "react";
-import { calculateLedgerSummary } from "./utils";
+import { calculateLedgerSummary } from "../utils";
 
 export function StatisticPage(){
     const [records] = useState(() => loadRecords().records);

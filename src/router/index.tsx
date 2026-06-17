@@ -1,5 +1,5 @@
 import { LedgerPage } from "@/pages/LedgerPage";
-import { StatisticPage } from "@/pages/LedgerPage/statisticPage";
+import { StatisticPage } from "@/pages/LedgerPage/components/statisticPage";
 import { createBrowserRouter } from "react-router";
 
 

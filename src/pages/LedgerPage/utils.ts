@@ -48,6 +48,7 @@ export function calculateLedgerSummary(records: LedgerRecord[]): LedgerSummary {
     let incomeCount = 0;
     let expenseCount = 0;
 
+
     for (const record of records) {
         if (record.type === "income") {
             incomeTotal += Number(record.amount);
